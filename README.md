@@ -17,6 +17,7 @@
 | 子项目 | 调用 | 一句话 |
 |--------|------|--------|
 | [design-jam](design-jam/README.md) | `/design-jam` | 跟你对话把粗想法磨成 `IDEA.md`,交给 Game Designer |
+| [image-prompt](image-prompt/README.md) | `/image-prompt` | 把 art-spec 的 `ASSET-SPEC.md` 编译成 image2 成品 prompt,产出 `IMAGE-PROMPTS.md` |
 
 ## 目录结构
 
