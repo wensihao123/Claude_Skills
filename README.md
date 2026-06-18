@@ -18,6 +18,7 @@
 |--------|------|--------|
 | [design-jam](design-jam/README.md) | `/design-jam` | 跟你对话把粗想法磨成 `IDEA.md`,交给 Game Designer |
 | [image-prompt](image-prompt/README.md) | `/image-prompt` | 把 art-spec 的 `ASSET-SPEC.md` 编译成 image2 成品 prompt,产出 `IMAGE-PROMPTS.md` |
+| [arch-guard](arch-guard/README.md) | `/arch-guard` | 维护活的 `ARCHITECTURE.md`,诊断不兼容并产出 `REFACTOR-<NN>.md` 重构方案交 Planner |
 
 ## 目录结构
 
