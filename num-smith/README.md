@@ -74,6 +74,6 @@ num-smith/
 ## 与 harness 的关系
 
 `BALANCE.md` 是给 `../../Claude_Roles/` 管线用的数值事实源,和 arch-guard 的 `ARCHITECTURE.md`
-同构(一个守结构,一个守数值平衡)。预防回路需要在 `roles/direction/game-designer.md`(及
-`roles/engineering/planner.md`)里把 BALANCE.md 列为必读输入、并加"破坏平衡则转 /num-smith"的
-escalation——这部分在 Claude_Roles 仓库里改,按 arch-guard 的先例在核心之后接。
+同构(一个守结构,一个守数值平衡)。预防回路已接:`roles/direction/game-designer.md` 和
+`roles/engineering/planner.md` 都把 `BALANCE.md` 列为必读输入(若存在),并在 Check 步 + escalation
+里加了"功能/目标破坏平衡不变量或数值哲学时 STOP 转 /num-smith"。这部分在 Claude_Roles 仓库里。
