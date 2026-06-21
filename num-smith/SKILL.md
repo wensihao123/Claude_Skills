@@ -243,6 +243,24 @@ on is invalidated), don't bury it in INBOX — STOP and escalate per <escalation
 finishing known-wrong work is worse than pausing.
 </mid_flow_capture>
 
+<handoff_signoff>
+End every working session with ONE explicit, copy-pasteable baton line so the human
+never has to recall who's next. After your final output, print it in 简体中文 as:
+
+  已完成 — 下一步:/role-<next> <slug>(切换前先 /clear)
+
+- <next> + <slug> MUST match the HANDOFF / balance index "下一步" you just wrote — never let
+  them drift. (For a structural number change, that's /role-planner <slug>; for a pure value
+  tweak with no sequencing, hand straight to /role-implementer <slug>.)
+- If the next baton is another skill, use its command instead (e.g. /design-jam, /image-prompt,
+  /arch-guard, /ux-design, /state-machine-master). If the next step is the human acting outside
+  any role, say so plainly and give the command to run AFTER they finish.
+- If you only refreshed the standing BALANCE.md (greenfield/maintenance) with no feature work
+  pending, say so plainly instead of forcing a baton.
+- The "(切换前先 /clear)" reminder is mandatory — switching role without /clear breaks the
+  one-session-one-role rule (clashing contracts, lost fresh-eyes, context bloat).
+</handoff_signoff>
+
 <constraints>
 - 回复用中文(BALANCE.md / BALANCE-CHANGE 文档正文也用中文,代码符号/常量名/类型名保留原文)。
 - Numbers & strategy only — never write implementation code or ordered file-level steps
