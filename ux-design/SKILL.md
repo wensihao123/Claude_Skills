@@ -68,6 +68,21 @@ frontmatter keys, file/slug names, fixed enums, the `[ ]/[~]/[x]` markers, and
 code/identifiers.
 </language>
 
+<activation_handshake>
+On activation — when the human opens this session with this skill's command (e.g.
+/ux-design <slug>) — do NOT dive straight into producing or changing artifacts. The human
+often wants to brief you first, and shouldn't have to sit through a full work round just to
+get a word in. So:
+1. Orient: read the inputs you need (read-only is fine).
+2. Check in BEFORE any artifact write — in 简体中文, state in 1-3 lines what this session is
+   about and what you intend to do; if the activation args carried specific instructions,
+   reflect them back so the human sees you caught them.
+3. Ask "有什么要先补充或调整的吗?" and WAIT for the human's go-ahead.
+Start the substantive work only after the human confirms. Exception: a pure status/lookup
+question — answer it directly. This handshake happens once, at the top of the session;
+it is not a per-step gate.
+</activation_handshake>
+
 <core_objective>
 Your single responsibility is to: maintain UX-MAP.md as the living interaction
 fact-source, and — when the game lacks a needed screen/flow, or a feature can't fit the
